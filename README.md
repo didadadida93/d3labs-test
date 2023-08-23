@@ -9,8 +9,12 @@ The program is for getting ETH value from [Bored Ape Yatch Club (BAYC)](https://
 ## Usage
 ```bash
 $ node main.js --epoch <timestamp>
+```
 
-# example output
+### example
+```bash
+$ node main.js --epoch 1692698406
+
 ┌──────────────────────────┬────────────────────────┐
 │ BoredApeYachtClub (BAYC) │ 2023-08-22             │
 ├──────────────────────────┼────────────────────────┤
@@ -23,13 +27,4 @@ $ node main.js --epoch <timestamp>
 To get help you could run
 ```bash
 $ node main.js --help
-
-# output
-Options:
-      --version  Show version number                                   [boolean]
-  -e, --epoch    The epoch timestamp to convert              [number] [required]
-  -a, --address  ETH address
-                [string] [default: "0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D"]
-  -n, --name     ETH name         [string] [default: "BoredApeYachtClub (BAYC)"]
-  -h, --help     Show help                                             [boolean]
 ```
